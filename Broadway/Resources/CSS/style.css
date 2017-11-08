@@ -1,0 +1,22 @@
+html {
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  z-index: 5;
+}
+
+img {
+  z-index: 4;
+}
+
+.contain {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
