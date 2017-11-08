@@ -1,7 +1,17 @@
+html {
+  background-color: black;
+  text-align: center;
+}
+
 h1 {
   font-family: verdana;
   font-weight: normal;
   font-size: 50px;
   color: white;
   text-align: center;
+}
+
+.class {
+  color: aquamarine;
+  font-size: 16px;
 }
