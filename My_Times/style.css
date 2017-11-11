@@ -3,6 +3,8 @@
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
 }
 
 .logo {
@@ -10,9 +12,33 @@
   color: mediumaquamarine;
 }
 
+img {
+  padding-right: 1100px;
+}
+
 .nav li {
   list-style: none;
   display: inline-block;
   justify-content: space-around;
   padding: 0 10px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+.large_column {
+  width: 630px;
+}
+
+.medium_column {
+  width: 300px;
+}
+
+.small_column {
+  width: 240px;
 }
