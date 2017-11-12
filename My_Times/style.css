@@ -93,7 +93,7 @@ a:hover {
 
 .cookie {
   border: 2px solid blue;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png");
+  background-image: url("http://growyourleader.com/ag/wp-content/uploads/2013/08/Chocolate-chip-cookie.-008.jpg)"
 }
 
 
@@ -114,6 +114,15 @@ a:hover {
 
 .cat {
   border: 2px solid blue;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  width: auto;
+  text-align: center;
+  top: 30px;
 }
 .camera {
   border: 2px solid blue;
