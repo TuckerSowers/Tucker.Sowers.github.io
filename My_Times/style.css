@@ -31,14 +31,52 @@ a:hover {
   color: red;
 }
 
+.main {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
 .large_column {
-  width: 630px;
+  display: flex;
 }
 
 .medium_column {
-  width: 300px;
+  display: flex;
 }
 
 .small_column {
-  width: 240px;
+  display: flex;
+}
+
+.phish {
+  border: 2px solid blue;
+
+}
+
+.burger {
+  border: 2px solid blue;
+}
+
+.orca {
+  border: 2px solid blue;
+}
+
+.earth {
+  border: 2px solid blue;
+}
+
+.cat {
+  border: 2px solid blue;
+}
+.camera {
+  border: 2px solid blue;
+}
+
+.fbi {
+  border: 2px solid blue;
+}
+footer {
+  background-color: teal;
+  padding: 100px;
 }
