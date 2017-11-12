@@ -34,29 +34,68 @@ a:hover {
 .main {
   border: 3px solid black;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .large_column {
+  width: 650px;
   display: flex;
+  flex-direction: column;
+  padding: 0 10px;
 }
-
 .medium_column {
+  width: 300px;
   display: flex;
+  flex-direction: column;
+  padding: 0 10px;
 }
 
 .small_column {
+  width: 240px;
   display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.mom {
+ border: 2px solid blue;
+ background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+ font-family: Georgia;
+ font-weight: bold;
+ font-size: 40px;
+ color: white;
+ height: auto;
 }
 
 .phish {
-  border: 2px solid blue;
-
+ border: 2px solid blue;
 }
 
 .burger {
-  border: 2px solid blue;
+ border: 2px solid blue;
 }
+
+.cookie {
+  border: 2px solid blue;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png");
+}
+
 
 .orca {
   border: 2px solid blue;
@@ -64,6 +103,13 @@ a:hover {
 
 .earth {
   border: 2px solid blue;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: auto;
 }
 
 .cat {
@@ -71,6 +117,13 @@ a:hover {
 }
 .camera {
   border: 2px solid blue;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  height: 300px;
+  width: 507px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .fbi {
