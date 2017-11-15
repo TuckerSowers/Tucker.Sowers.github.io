@@ -1,29 +1,106 @@
-.header {
+html {
   font-family: helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  text-align: center;
-  height: 69px;
-  width: 100%;
-  position: fixed;
-  border: 1px solid seashell;
+}
+
+header {
   display: flex;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
 }
 
- .header ul {
-   list-style: none;
-   display: flex;
-   flex-direction: row;
- }
-
-li {
-  padding-left: 10px;
-  padding-right: 10px;
+span {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-.header h3 {
+a {
+  color: seashell;
+}
+
+header nav {
+  display: inline-block;
+  margin-left: 1000px;
+}
+
+.logo {
   position: relative;
   left: 10px;
+  height: 50px;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mid {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-content: center;
+}
+
+.black-strip h2, h4 {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+.month-title {
+  display: block;
+  font-family: helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.month {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tea-pics img {
+  height: 200px;
+  width: 300px;
+}
+
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.threeplaces {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.place {
+  display: block;
+  text-align: center;
+  font-family: helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  width: 300px;
+  padding: 0 20px;
 }
