@@ -35,6 +35,11 @@ header nav {
   height: 50px;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
 .parent-container {
   display: flex;
   flex-direction: column;
@@ -64,12 +69,18 @@ header nav {
 }
 
 .pic {
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 .month img {
   height: 200px;
   width: 300px;
+  margin: 0 10px;
+}
+
+.month-title {
+  text-align: center;
 }
 
 .locations {
