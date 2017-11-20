@@ -1,0 +1,54 @@
+/*html default*/
+
+.html {
+  font-size: 18px;
+}
+
+/*banner style*/
+
+.banner {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  Width: 100%;
+  margin: 0;
+  padding: 3.5%;
+}
+
+.banner img {
+  width: 5%;
+  margin: 1.5%
+}
+
+/*arrival sytle*/
+
+.arrival {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-box {
+  text-transform: capitalize;
+}
+
+.nav-bar {
+  background-color: firebrick;
+  margin: 0;
+  width: 100%;
+}
+
+
+.nav-bar ul {
+  list-style: none;
+}
+
+/*items CSS*/
+
+.items img {
+  height: 9rem;
+  width: 30%;
+  padding: 2rem 0;
+}
