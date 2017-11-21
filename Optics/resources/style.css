@@ -103,14 +103,17 @@ html {
 .bottom-section {
   width: 960px;
   border: 2px solid green;
-  display: block;
+  display: flex;
+  flex-direction: row;
+
 }
 
-.philo {
+.philo,
+.appts {
   background-color: cadetblue;
   color: white;
   text-transform: capitalize;
   width: 10rem;
   height: 2.5rem;
-
+  border: 1px solid orange;
 }
