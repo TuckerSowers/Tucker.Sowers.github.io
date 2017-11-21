@@ -1,0 +1,116 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: helvetica;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+}
+
+/*CSS for main banner*/
+
+.main-banner {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  height: 30rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  margin-top: 1rem;
+  height: 3rem;
+  background-color: cadetblue;
+  border: 1px solid red;
+}
+
+.optics-banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.optics-banner .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+ .three {
+   margin-left: 19rem;
+ }
+
+.optics-banner .three span {
+  margin-right: 2rem;
+}
+
+/*CSS for mid-section*/
+.mid-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 1px solid magenta;
+}
+
+.exams,
+.fittings,
+.delivery  {
+  text-align: center;
+  border: 1px solid blue;
+}
+
+.exams img {
+  width: 3.5rem;
+  margin-right: 3rem;
+}
+
+.fittings img {
+  width: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.delivery img {
+  width: 5rem;
+  margin-left: 3rem;
+}
+
+/*CSS for philosophy section*/
+.bottom-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.bottom-section {
+  width: 960px;
+  border: 2px solid green;
+  display: block;
+}
+
+.philo {
+  background-color: cadetblue;
+  color: white;
+  text-transform: capitalize;
+  width: 10rem;
+  height: 2.5rem;
+
+}
