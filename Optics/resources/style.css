@@ -7,7 +7,6 @@ html {
 .flex-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
 }
 
 /*CSS for main banner*/
@@ -22,6 +21,16 @@ html {
   margin: 0 auto;
 }
 
+/*Css for text-box inside main banner*/
+.flex-text {
+  position: absolute;
+  top: 14rem;
+  right: 9rem;
+  background-color: white;
+  padding: 1.5rem 5rem;
+}
+/*end CSS for tex-box*/
+
 .site-container {
   display: flex;
   flex-direction: row;
@@ -29,7 +38,6 @@ html {
   margin-top: 1rem;
   height: 3rem;
   background-color: cadetblue;
-  border: 1px solid red;
 }
 
 .optics-banner {
@@ -66,19 +74,25 @@ html {
   height: 10rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  border: 1px solid magenta;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .exams,
 .fittings,
 .delivery  {
   text-align: center;
-  border: 1px solid blue;
 }
 
 .exams img {
   width: 3.5rem;
   margin-right: 3rem;
+  position: relative;
+  left: 1.25rem;
 }
 
 .fittings img {
@@ -90,6 +104,8 @@ html {
 .delivery img {
   width: 5rem;
   margin-left: 3rem;
+  position: relative;
+  right: 1.5rem;
 }
 
 /*CSS for philosophy section*/
@@ -102,18 +118,58 @@ html {
 
 .bottom-section {
   width: 960px;
-  border: 2px solid green;
+  height: 10rem;
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 
 }
 
 .philo,
 .appts {
+   width: 35%;
+   height: auto;
+   margin: 0 2.5%;
+}
+
+.philo h4,
+.appts h4 {
   background-color: cadetblue;
   color: white;
   text-transform: capitalize;
   width: 10rem;
-  height: 2.5rem;
-  border: 1px solid orange;
+  height: auto;
+  font-size: 1rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+}
+
+.philo p,
+.appts p {
+  margin-bottom: 5rem;
+}
+
+/*footer CSS*/
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+  margin-top: 5rem;
+  padding: 4rem 0 4rem 4rem;
+
+}
+
+.text-foot {
+  display: flex;
+  align-items: center;
+}
+
+.foot-flex {
+  width: 960px;
+}
+
+.foot-flex img {
+  height: 1.5rem;
+  margin-right: 1rem;
 }
