@@ -157,7 +157,6 @@ footer {
   background-color: azure;
   margin-top: 5rem;
   padding: 4rem 0 4rem 4rem;
-
 }
 
 .text-foot {
@@ -172,4 +171,27 @@ footer {
 .foot-flex img {
   height: 1.5rem;
   margin-right: 1rem;
+}
+
+@media (max-width: 960px) {
+  .main-banner {
+    font-size: 0.9rem;
+  }
+  .flex-text {
+    position: absolute;
+    top: 10rem;
+    right: 5rem;
+    background-color: white;
+    padding: 0.75rem 3rem;
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    margin-top: 5rem;
+    padding: 2rem 0 2rem 2rem;
+  }
+
 }
