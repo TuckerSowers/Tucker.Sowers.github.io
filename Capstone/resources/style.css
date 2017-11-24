@@ -1,0 +1,83 @@
+/*header CSS*/
+html {
+  font-size: 18px;
+}
+
+.header {
+  height: 36px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: helvetica;
+}
+
+.header img {
+  height: 40px;
+  margin-left: 24px;
+  margin-right: -40px;
+}
+
+.header .colmar {
+  font-family: 'PT Serif', serif;
+  font-size: 22px;
+}
+
+.header .academy {
+  font-family: 'PT Serif', serif;
+  color: gray;
+  font-size: 22px;
+}
+
+
+.header .right{
+  margin-left: 868px;
+}
+
+.right li {
+    color: gray;
+    padding: 0 8px;
+}
+
+ul {
+  list-style: none;
+  margin: 0
+  padding: 0
+}
+
+li {
+  display: inline;
+}
+
+.right {
+  float: right;
+}
+
+/*CSS for "learn something new everyday"*/
+
+.learn {
+  background-color: gray;
+  border: 2px solid green;
+  height: 724px;
+}
+
+.learn img {
+  width: 60%;
+  float: left;
+  margin: 32px 24px;
+}
+
+.flex-learn {
+  height: 724px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.btn {
+  color: red;
+  background-color: blue;
+  padding: 15px 35px;
+}
