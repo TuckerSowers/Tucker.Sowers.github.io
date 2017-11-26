@@ -31,7 +31,7 @@ html {
 
 
 .header .right{
-  margin-left: 868px;
+  margin-left: 848px;
 }
 
 .right li {
@@ -55,29 +55,92 @@ li {
 
 /*CSS for "learn something new everyday"*/
 
-.learn {
-  background-color: gray;
-  border: 2px solid green;
-  height: 724px;
+.flex-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-.learn img {
+.grey {
+  background-color: hsl(0, 0%, 80%);
+}
+
+.row-one {
+  display: flex;
+  flex-direction: column;
   width: 60%;
-  float: left;
+  border: 1px solid hsl(0, 0%, 80%);
+}
+
+.row-one img {
   margin: 32px 24px;
 }
 
-.flex-learn {
-  height: 724px;
+.side-bar {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 40%;
   border: 1px solid red;
 }
 
+.side-bar h1 {
+  font-size: 44px;
+  font-weight: 1000;
+}
+
+.side-bar h4 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.25;
+}
+
 .btn {
-  color: red;
-  background-color: blue;
-  padding: 15px 35px;
+  color: hsl(0, 0%, 70%);
+  background-color: hsl(0, 0%, 20%);
+  width: 330px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: hsl(322, 81%, 43%);
+  color: hsl(0, 0%, 20%);
+}
+
+.main-side {
+  width: 66.6%;
+  position: relative;
+  top: 250px;
+  left: 40px
+}
+
+/*this makes the "doesn't hurt to practice" pic smaller*/
+
+.squish-pic {
+  height: 65%;
+}
+
+/*this moves the "doesn't hurt to practice" side bar down*/
+
+.push-down {
+  margin-top: 32px;
+}
+
+/*this makes the "doesn't hurt to practice" side pics smaller*/
+
+.thumbnail {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+  float: left;
+}
+
+.side-bar-item {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid darkblue;
+}
+
+.inline-words {
+
 }
