@@ -91,10 +91,10 @@ li {
 }
 
 .row-one video {
-  margin: 32px 24px;
-  position: relative;
-  top: -300px;
-  margin-bottom: -600px;
+  height: 500px;
+  margin: 0 24px;
+
+
 }
 
 .row-one h6 {
