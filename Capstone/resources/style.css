@@ -61,9 +61,24 @@ li {
   flex-direction: row;
 }
 
+/*color and boldness adjustments*/
+
 .grey {
   background-color: hsl(0, 0%, 80%);
 }
+
+.light-grey {
+  background-color: hsl(0, 0%, 92.5%);
+}
+
+.blue {
+  color: blue;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 
 .row-one {
   display: flex;
@@ -74,6 +89,29 @@ li {
 
 .row-one img {
   margin: 32px 24px;
+}
+
+.row-one video {
+  margin: 32px 24px;
+  position: relative;
+  top: -300px;
+  margin-bottom: -600px;
+}
+
+.row-one h6 {
+  font-size: 34px;
+  margin: 32px 0 24px 24px;
+  color: hsl(0, 0%, 20%);
+}
+
+.row-one p {
+  margin-left: 24px;
+  font-size: 18px;
+}
+
+.byline {
+  color: hsl(0, 0%, 10%);
+  font-weight: 700;
 }
 
 .side-bar {
@@ -117,7 +155,7 @@ li {
 /*this makes the "doesn't hurt to practice" pic smaller*/
 
 .squish-pic {
-  height: 65%;
+  height: 53.5%;
 }
 
 /*this moves the "doesn't hurt to practice" side bar down*/
@@ -135,12 +173,72 @@ li {
   float: left;
 }
 
+.side-box-title {
+  color: hsl(0, 0%, 25%);
+  font-size: 28px;
+}
+
 .side-bar-item {
   display: inline-flex;
   align-items: center;
   border: 1px solid darkblue;
 }
 
-.inline-words {
+/*Start Learning Section*/
+.center-flex {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid blue;
+  margin: 0 72px;
+}
+
+
+.column {
+  display: inline-block;
+  width: 30%;
+  border: 1px solid red;
+  text-align: center;
+  margin: 0 16px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 32px 0;
+}
+
+
+
+
+
+
+
+
+    /*mobile CSS header*/
+
+.header-mobile {
+  visibility: hidden;
+}
+
+.header-mobile-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .header img,
+  .header li {
+    visibility: hidden;
+  }
+  .header-mobile {
+    visibility: visible;
+  }
 
 }
