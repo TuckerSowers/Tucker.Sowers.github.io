@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
     <link href ="resources/style.css" type ="text/css" rel ="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
   </head>
 
   <!--header-->
@@ -53,7 +54,7 @@
           <div class="inline-words">
           <p class="side-box-title bold">Orienatation Date</p>
           <p>Tues 10/11 &amp; Wed 10/12 8am-3pm</p>
-          <p class="blue">Read more</p>
+          <a href="#">Read more</a>
           </div>
         </div>
         <div class = "side-bar-item">
@@ -61,7 +62,7 @@
           <div class="inline-words">
             <p class="side-box-title bold">Our campus</p>
             <p>Find which campus is close by to you</p>
-            <p class="blue">Read more</p>
+            <a href="#">Read more</a>
           </div>
         </div>
         <div class="side-bar-item grey">
@@ -69,35 +70,71 @@
           <div class="inline-words">
             <p class="side-box-title bold">Our guest lecture</p>
             <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-            <p class="blue">Read more</p>
+            <a href="#">Read more</a>
           </div>
         </div>
       </div>
     </div>
 
     <!--Start Learning Section-->
-  <div class = "light-grey">
+    <!--Column 1-->
+  <div class = "light-grey push-up">
     <div class="title">
       <h1>Start learning</h1>
     </div>
     <div class="center-flex">
       <div class="column">
         <img src="resources/course-software.jpg" alt="software course pic">
-        <p class="side-box-title bold">Software Engineering</p>
-        <p class="course">COURSES</p>
-        <p>Web Development, Mobile Development, iOT, APis</p>
+        <div class="words-in-column">
+          <p class="side-box-title bold">Software Engineering</p>
+          <p class="course">COURSES</p>
+          <p>Web Development, Mobile Development, iOT, APIs</p>
+        </div>
       </div>
       <div class="column">
         <img src="resources/course-computer-art.jpg" alt="computer-art course pic">
-        <p class="side-box-title bold">Computer Art</p>
-        <p class="course">COURSES</p>
-        <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+        <div class="words-in-column">
+          <p class="side-box-title bold">Computer Art</p>
+          <p class="course">COURSES</p>
+          <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+        </div>
       </div>
       <div class="column">
         <img src="resources/course-design.jpg" alt="design course pic">
-        <p class="side-box-title bold">Design</p>
-        <p class="course">COURSES</p>
-        <p>User Expereince Design, User Research, Visual Design</p>
+        <div class="words-in-column">
+          <p class="side-box-title bold">Design</p>
+          <p class="course">COURSES</p>
+          <p>User Expereince Design, User Research, Visual Design</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Column 2-->
+  <div class = "light-grey">
+    <div class="center-flex">
+      <div class="column">
+        <img src="resources/course-data.jpg" alt="data pic">
+        <div class="words-in-column">
+          <p class="side-box-title bold">Data</p>
+          <p class="course">COURSES</p>
+          <p>Data Science, Big Data, SQL, Data Visualization</p>
+        </div>
+      </div>
+      <div class="column">
+        <img src="resources/course-business.jpg" alt="business pic">
+        <div class="words-in-column">
+          <p class="side-box-title bold">Business</p>
+          <p class="course">COURSES</p>
+          <p>Product Development, Business Development, Startup</p>
+        </div>
+      </div>
+      <div class="column">
+        <img src="resources/course-marketing.jpg" alt="marketing pic">
+        <div class="words-in-column">
+          <p class="side-box-title bold">Marketing</p>
+          <p class="course">COURSES</p>
+          <p>Analytics, Content Marketing, Mobile Marketing</p>
+        </div>
       </div>
     </div>
   </div>
@@ -109,7 +146,7 @@
       </div>
       <div class = "flex-row">
         <div class="row-one">
-          <video src ="resources/thesis.mp4" alt="thesis video">Video not supported</video>
+          <video src ="resources/thesis.mp4" type="video.mp4" alt="thesis video" controls>Video not supported</video>
           <h6>Reimagine urban</h6>
           <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
         </div>
@@ -130,8 +167,16 @@
           </div>
         </div>
       </div>
+    </body>
+      <footer>
+        <div>
+          <span class="left">&copy; 2016 Colmar Academy. All rights reserved</span>
+          <a href="#" class="right">Privacy</a>
+          <a href ="#" class="right">Terms</a>
+        </div>
+      </footer>
 
-  </body>
+
 </html>
 
 <!--Pictures for mobile site

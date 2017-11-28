@@ -1,6 +1,7 @@
 /*header CSS*/
 html {
   font-size: 18px;
+  font-family: 'Questrial', sans-serif;
 }
 
 .header {
@@ -79,12 +80,10 @@ li {
   font-weight: 700;
 }
 
-
 .row-one {
   display: flex;
   flex-direction: column;
   width: 60%;
-  border: 1px solid hsl(0, 0%, 80%);
 }
 
 .row-one img {
@@ -107,6 +106,7 @@ li {
 .row-one p {
   margin-left: 24px;
   font-size: 18px;
+  color: hsl(0, 0%, 45%);
 }
 
 .byline {
@@ -118,7 +118,6 @@ li {
   display: flex;
   flex-direction: column;
   width: 40%;
-  border: 1px solid red;
 }
 
 .side-bar h1 {
@@ -164,6 +163,12 @@ li {
   margin-top: 32px;
 }
 
+/*this will push a margin up, if needed*/
+
+.push-up {
+  margin-top: -100px;
+}
+
 /*this makes the "doesn't hurt to practice" side pics smaller*/
 
 .thumbnail {
@@ -181,37 +186,58 @@ li {
 .side-bar-item {
   display: inline-flex;
   align-items: center;
-  border: 1px solid darkblue;
+}
+
+.inline-words a {
+  text-decoration: none;
+  color: #3b8cf7;
 }
 
 /*Start Learning Section*/
 .center-flex {
   display: flex;
   justify-content: space-between;
-  border: 2px solid blue;
   margin: 0 72px;
 }
 
+.title {
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 16px 0;
+  padding-top: 32px;
+}
 
 .column {
   display: inline-block;
   width: 30%;
-  border: 1px solid red;
-  text-align: center;
-  margin: 0 16px;
+  text-align: left;
+  margin: 16px 16px;
+  background-color: white;
 }
 
 .column img {
   width: 100%;
   height: auto;
 }
+.words-in-column {
+  margin: 16px 0 24px 16px;
+  font-size: 22px;
+}
+    /*footer CSS*/
 
-.title {
-  color: hsl(0, 0%, 25%);
-  text-align: center;
-  margin: 32px 0;
+footer {
+  padding-top: 16px;
+  border-top: 1px solid hsl(0, 0%, 25%);
+  margin-left: 24px;
+  color: hsl(0, 0%, 45%);
 }
 
+footer .right {
+  margin-left: 6px;
+  margin-right: 6px;
+  text-decoration: none;
+  color: hsl(0, 0%, 45%);
+}
 
 
 
