@@ -226,6 +226,7 @@ li {
     /*footer CSS*/
 
 footer {
+  margin-top:32px;
   padding-top: 16px;
   border-top: 1px solid hsl(0, 0%, 25%);
   margin-left: 24px;
@@ -239,19 +240,10 @@ footer .right {
   color: hsl(0, 0%, 45%);
 }
 
-
-
-
-
-
-
     /*mobile CSS header*/
 
-.header-mobile {
-  visibility: hidden;
-}
-
-.header-mobile-flex {
+.mobile-header-flex {
+  max-width: 480px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -259,12 +251,16 @@ footer .right {
 }
 
 @media (max-width: 480px) {
-  .header img,
-  .header li {
+  .header-content-desktop {
     visibility: hidden;
   }
-  .header-mobile {
-    visibility: visible;
-  }
+}
 
+@media (min-width:1024px) {
+  .header-content-mobile {
+    visibility: hidden;
+  }
+  .header-content-desktop {
+    margin-bottom: -24px;
+  }
 }
