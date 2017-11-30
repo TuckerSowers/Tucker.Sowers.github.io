@@ -242,14 +242,6 @@ footer .right {
 
     /*mobile CSS header*/
 
-@media (max-width: 480px) {
-  .header-content-desktop,
-  .desktop-practice-section {
-    visibility: hidden;
-}
-
-  }
-
   .header-content-mobile {
     display: flex;
     flex-direction: column;
@@ -264,7 +256,7 @@ footer .right {
   }
 
   .mobile-header-flex img {
-    padding: 0 40px;
+    padding: 0 35px;
   }
 
   .mobile-practice-section {
@@ -323,11 +315,30 @@ footer .right {
   .start-learn-mobile {
     display: block;
     text-align: center;
-    border: 1px solid red;
   }
 
   .start-learn-mobile h1 {
     margin: 32px auto 12px auto;
+  }
+
+  .start-learn-mobile a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .mobile-block:hover {
+    background-color: hsl(0, 0%, 50%);
+  }
+
+  .mobile-block a:hover {
+  color: #ff1a75;
+}
+
+  .mobile-block:last-child:hover {
+    background-color: hsl(0, 0%, 50%);
+    color: #ff1a75;
   }
 
   .mobile-block {
@@ -349,4 +360,23 @@ footer .right {
   .thesis-mobile h1 {
     text-align: center;
     margin: 32px auto 16px auto;
+  }
+
+  .mobile-footer {
+    text-align: center;
+    margin: 16px auto;
+  }
+
+  /*media queries*/
+
+  @media (max-width: 480px) {
+      .desktop-content {
+      display: none;
+      }
+    }
+
+  @media (min-width: 490px) {
+    .mobile-content {
+      display: none;
+    }
   }
