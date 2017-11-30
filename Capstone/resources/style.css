@@ -242,25 +242,111 @@ footer .right {
 
     /*mobile CSS header*/
 
-.mobile-header-flex {
-  max-width: 480px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
 @media (max-width: 480px) {
-  .header-content-desktop {
+  .header-content-desktop,
+  .desktop-practice-section {
     visibility: hidden;
-  }
 }
 
-@media (min-width:1024px) {
+  }
+
   .header-content-mobile {
-    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
-  .header-content-desktop {
-    margin-bottom: -24px;
+
+  .mobile-header-flex {
+    max-width: 480px;
+    height: 64px;
+    display: inline;
   }
+
+  .mobile-header-flex img {
+    padding: 0 40px;
+  }
+
+  .mobile-practice-section {
+    text-align: center;
+    margin-bottom: 32px;
+    border: 1px solid white;
+  }
+
+  .mobile-practice-section img {
+    width: 100%;
 }
+
+  .btn-mobile {
+      color: hsl(0, 0%, 70%);
+      background-color: hsl(0, 0%, 20%);
+      padding: 8px 0;
+      width: 350px;
+      margin-bottom: 24px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn-mobile:hover {
+      background-color: hsl(322, 81%, 43%);
+      color: hsl(0, 0%, 20%);
+    }
+
+
+  .side-bar-mobile {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  .side-bar-item-mobile {
+    display: block;
+  }
+
+  .thumbnail-mobile {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .inline-words-mobile {
+    margin-bottom: 64px;
+    margin-left: 16px;
+  }
+
+  .inline-words-mobile a {
+    text-decoration: none;
+    color: #3b8cf7;
+  }
+
+  .start-learn-mobile {
+    display: block;
+    text-align: center;
+    border: 1px solid red;
+  }
+
+  .start-learn-mobile h1 {
+    margin: 32px auto 12px auto;
+  }
+
+  .mobile-block {
+    color: hsl(0, 0%, 25%);
+    font-size: 20px;
+    padding: 16px 16px 24px 16px;
+    background-color: hsl(0, 0%, 80%);
+    margin: 4px auto;
+  }
+
+  .mobile-block:last-child {
+    color: hsl(0, 0%, 25%);
+    font-size: 20px;
+    padding: 16px 16px 24px 16px;
+    background-color: hsl(0, 0%, 80%);
+    margin: 4px auto 32px auto;
+  }
+
+  .thesis-mobile h1 {
+    text-align: center;
+    margin: 32px auto 16px auto;
+  }
