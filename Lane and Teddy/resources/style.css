@@ -1,0 +1,387 @@
+html {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
+}
+
+/*This gives the navbar its color*/
+a {
+  color: #2b1f84;
+  list-style: none;
+}
+
+.container-all {
+  background-color: #f3f2f2;
+}
+
+.all-page {
+  background-color: #f3f2f2;
+}
+
+
+  /*CSS for Navbar section on Main Page*/
+
+  .navbar-header {
+    background-color: #99b3ff;
+    color: #24248f;
+    font-size: 1.6rem;
+    font-family: 'Ruda', serif;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+  }
+
+  .navbar-header a:last-child {
+    border: none;
+  }
+
+/*Navbar on Kid's pages*/
+.navbar {
+  background-color: #f3f2f2;
+  color: #24248f;
+  font-size: 1.5rem;
+  font-family: 'Handlee', serif;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar a {
+  border-right: 2px solid gray;
+  padding: 0 145px;
+}
+
+.navbar a:last-child {
+  border: none;
+}
+
+/*If needed to move up navbar in kids section*/
+
+.move-up {
+  position: relative;
+  top: -5px;
+}
+
+  /*more navbar stuff*/
+
+.name-title {
+  text-align: center;
+  font-family: 'Courgette';
+  padding-top: 15px;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 5px;
+  white-space: nowrap;
+}
+
+.flex-box a:hover {
+  color: red;
+  text-decoration: none;
+
+}
+/*Lane's photo gallery in header*/
+
+#LPG,
+#teddy-videos {
+  font-size: 1.75rem;
+  font-family: serif;
+  text-align: center;
+  color: #db1313;
+}
+
+.photo-gallery-nav {
+  font-family: serif;
+  color: #db1313;
+}
+
+/*CSS for main banner section*/
+.jumbotron {
+  background-image: url(../resources/LaneandTeddy2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 15;
+  height: 600px;
+}
+
+  /*Teddy and Lane section - below main banner*/
+
+.below-jumbo-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-jumbo {
+  width: 45%;
+  margin: 30px 0;
+}
+
+.text-jumbo {
+  width: 45%;
+}
+
+.text-jumbo h1 {
+  font-family: 'Handlee', serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #99b3ff;
+  margin: 30px 0;
+  text-decoration: underline;
+}
+
+.text-jumbo p {
+  font-family: serif;
+  font-size: 1.5rem;
+  margin: 25px;
+}
+
+.signature {
+  padding-left: 440px;
+}
+
+/*mobile version*/
+.below-jumbo-mobile {
+  display: block;
+  text-align: center;
+}
+
+.image-jumbo {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.text-jumbo {
+  width: 100%;
+}
+
+.text-jumbo h1 {
+  font-family: 'Handlee', serif;
+  text-align: center;
+  color: #99b3ff;
+  margin: 15px 0;
+  text-decoration: underline;
+}
+
+.text-jumbo p {
+  font-family: serif;
+  font-size: 1rem;
+  margin: 15px;
+}
+
+
+/*Lane and Teddy's Pages*/
+
+  /*Lane and Teddy title banner - desktop*/
+.kid-title-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f2f2;
+}
+
+.face img {
+  border-radius: 120px;
+  width: 60%;
+  margin: 25px 0;
+}
+
+.birth-card {
+  padding-left 50px;
+}
+
+  /*Lane and Teddy title banner - mobile*/
+
+  .kid-title-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f2f2;
+  }
+
+  .face-mobile img {
+    border-radius: 120px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .title-info-mobile {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+/*Lane and Teddy Navbar Mobile*/
+
+  .navbar-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .navbar-mobile p {
+    width: 100%;
+    padding: 10px;
+    margin: 3px 0;
+    background-color: #ff6666;
+    color: black;
+    text-align: center;
+    font-size: 1.25rem;
+    border: 1px solid black;
+  }
+
+  .navbar-mobile p:hover {
+    font-size: 1.5rem;
+    color: #0000b3;
+  }
+
+  .navbar-mobile a:hover {
+    text-decoration: none;
+  }
+
+
+.contain-main {
+  background-color: #f3f2f2;
+  position: relative;
+  top: 25px;
+  width: 100%;
+}
+
+.kids-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-date {
+  font-size: .6666rem;
+  font-family: monospace;
+  color: #a9a8af;
+  margin-left: 25px;
+}
+
+.right {
+  float: right;
+  padding: 20px;
+  background-color: #333;
+	color: #bbb;
+	font-weight: bold;
+	padding: 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 3.5px;
+}
+
+.left {
+  float: left;
+  background-color: #666;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content-date {
+  padding-top: 25px
+}
+
+.year-content h3,
+.year-content-left h3 {
+  padding-bottom: 15px;
+  text-align: center;
+  font-family: 'Amatic+SC', cursive;
+  font-size: 2rem;
+  color: #6d688e;
+  text-decoration: underline;
+}
+
+.year-content p,
+.year-content-left p {
+  font-family: 'Actor', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75;
+  margin: 15px;
+}
+
+.year-content img {
+  width: 250px;
+  margin: 0 50px;
+}
+
+.year-content-left img {
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.year-content video,
+.year-content-left video {
+  width: 42.5%;
+  float: right;
+  margin-right: 50px;
+  margin-left: 30px;
+  padding: 15px;
+  background-color: #c5c9c8;
+}
+
+  /*Lane's photo gallery - helps to align each column*/
+  .move-up-lot {
+    position: relative;
+    top: -187px;
+  }
+
+  .move-up-med {
+    position: relative;
+    top: -118px;
+  }
+
+  .move-down-little {
+    position: relative;
+    top: 37px;
+  }
+
+  /*Teddy's Dance Video Section*/
+  .videos {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  footer {
+    position: relative;
+    top: 50px;
+    margin-top: 5px;
+  }
+
+  footer p {
+    padding: 10px 0;
+    margin-left: 25px;
+    text-align: center;
+  }
+
+/*media queries*/
+
+@media screen and (min-width: 640px) {
+  .below-jumbo-mobile,
+  .title-info-mobile,
+  .face-mobile,
+  .navbar-mobile {
+    display: none;
+  }
+    /* hide mobile */
+}
+
+@media screen and (min-width: 300px) and (max-width: 641px) {
+  .below-jumbo-desktop,
+  .desktop,
+  .jumbotron  {
+    display: none;
+    }
+
+     /* hide desktop */
+}
